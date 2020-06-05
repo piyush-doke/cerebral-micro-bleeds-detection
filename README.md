@@ -14,6 +14,6 @@ Cerebral micro-bleeds (CMBs) are small chronic brain hemorrhages caused by struc
 ## Frameworks/Tools
 
 - [Keras](https://keras.io/)
-- [Bayesian optimization](https://github.com/fmfn/BayesianOptimization)
+- [Bayesian Optimization](https://github.com/fmfn/BayesianOptimization)
 
 ## Usage
