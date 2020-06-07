@@ -36,7 +36,7 @@ Cell Title | Cell Description
 Import Modules | Imports all the required modules.
 Settings | Sets the following parameters: seeds, iterations of grid search, iterations of random search, iterations of Bayesian optimization, and epochs for training the CNN.
 Functions | Defines entities like the CNN structure, image augmentations, objective function for Bayesian optimization, and evaluation metrics.
-Create Train/Test Sets | Creates train and test sets for our model. The train set undergoes image augmentation and test set remains un-augmented. Hold-out validation is used here.
+Create Train/Test Sets | Splits the dataset into train and test sets. The train set undergoes image augmentation and test set remains un-augmented. Hold-out validation is used here.
 Preview Samples | Displays samples from the train set.
 Grid Search | Finds the optimum set of hyper-parameters for the model using grid search.
 Random Search | Finds the optimum set of hyper-parameters for the model using random search.
