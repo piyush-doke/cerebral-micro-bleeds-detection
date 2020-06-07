@@ -28,3 +28,8 @@ CMB Samples | Non-CMB Samples
 - [Bayesian Optimization](https://github.com/fmfn/BayesianOptimization)
 
 ## Usage
+
+Cell Title | Cell Description
+--- | ---
+Import Modules | Imports all the modules required
+Settings | Sets parameters such as: seeds, iterations of grid search, iterations of random serach, iterations of Bayesian optimization, and epochs for traning the CNN.
