@@ -29,7 +29,7 @@ CMB Samples | Non-CMB Samples
 
 ## Usage
 
-Cells in [cmb_detection.ipynb][/cmb_detection.ipynb] are to be run sequentially from top to bottom. A brief description about the function of each cell in the notebook is provided below.
+Cells in [cmb_detection.ipynb](/cmb_detection.ipynb) are to be run sequentially from top to bottom. A brief description about the function of each cell in the notebook is provided below.
 
 Cell Title | Cell Description
 :---: | ---
