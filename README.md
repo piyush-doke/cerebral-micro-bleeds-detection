@@ -6,6 +6,7 @@ NOTE: Created in Python 3.
 
 Cerebral micro-bleeds (CMBs) are small chronic brain hemorrhages caused by structural abnormalities in brain vessels. Owing to the paramagnetic properties of blood, these bleeds can be detected in vivo using MRI. However, manual detection is time-consuming, less accurate, and subjective, especially due to their complex morphological structure and widespread distribution throughout the brain. Hence, we created a classifier that is quick to train and about 99% accurate on this task. The classifier is constructed using [Keras](https://keras.io/) and utilizes [Bayesian optimization](https://github.com/fmfn/BayesianOptimization) to automate hyper-parameter learning.
 
+The images below illustrate a few CMB and non-CMB samples.
 <img src="/sample_images/cmb.png" width="400"> | <img src="/sample_images/non_cmb.png" width="400">
 :---: | :---:
 CMB Samples | Non-CMB Samples
