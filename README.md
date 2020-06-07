@@ -29,14 +29,16 @@ CMB Samples | Non-CMB Samples
 
 ## Usage
 
+Cells in [cmb_detection.ipynb][/cmb_detection.ipynb] are to be run sequentially from top to bottom. A brief description about the function of each cell in the notebook is provided below.
+
 Cell Title | Cell Description
 --- | ---
-Import Modules | Imports all the modules required
-Settings | Sets parameters such as: seeds, iterations of grid search, iterations of random serach, iterations of Bayesian optimization, and epochs for traning the CNN.
+Import Modules | Imports all the required modules.
+Settings | Sets the following parameters: seeds, iterations of grid search, iterations of random serach, iterations of Bayesian optimization, and epochs for traning the CNN.
 Functions | Defines entities like the CNN structure, image augmentations, objective function for Bayesian optimization, and evaluation metrics.
-Create Train/Test Sets | Creates train and test sets for our model. Train set undergoes images augmentations and test set remian un-augmented. Hold-out validation is used here.
+Create Train/Test Sets | Creates train and test sets for our model. Train set undergoes image augmentation and test set remian un-augmented. Hold-out validation is used here.
 Preview Samples | Displays samples from the train set.
 Grid Search | Finds the optimum set of hyper-parameters for the model using grid search.
 Random Search | Finds the optimum set of hyper-parameters for the model using random search.
 Bayesian Optimization | Finds the optimum set of hyper-parameters for the model using Bayesian optimization.
-Comparing Results | Retrains the model using hyper-paramters sets obtained from grid search, random search, and Bayesian optimization. Compares the accuracy, sensitivity, specificity, and precision, obtained from these approaches.
+Comparing Results | Retrains the model using hyper-paramter sets obtained from grid search, random search, and Bayesian optimization. Compares the accuracy, sensitivity, specificity, and precision, obtained from these three methods.
