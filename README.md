@@ -9,6 +9,8 @@ Cerebral micro-bleeds (CMBs) are small chronic brain hemorrhages caused by struc
 ## Repository Tree
 ```
 ./cerebral-micro-bleeds-detection
+├── sample_images                                 # Contains sample images
+│   └── ...
 ├── README.md
 ├── cmb_detection.ipynb                           # Notebook to run
 └── dataset_41_41_1_13031.mat                     # Dataset
