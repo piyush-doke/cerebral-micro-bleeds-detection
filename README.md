@@ -32,7 +32,7 @@ CMB Samples | Non-CMB Samples
 Cells in [cmb_detection.ipynb][/cmb_detection.ipynb] are to be run sequentially from top to bottom. A brief description about the function of each cell in the notebook is provided below.
 
 Cell Title | Cell Description
-:---: | :---
+:---: | ---
 Import Modules | Imports all the required modules.
 Settings | Sets the following parameters: seeds, iterations of grid search, iterations of random serach, iterations of Bayesian optimization, and epochs for traning the CNN.
 Functions | Defines entities like the CNN structure, image augmentations, objective function for Bayesian optimization, and evaluation metrics.
