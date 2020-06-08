@@ -32,7 +32,9 @@ CMB Samples | Non-CMB Samples
 
 For all notebooks, cells are to be run sequentially from top to bottom. A brief description about the function of each cell is provided below.
 
-### - Comparing Bayesian Optimization to Grid Search and Random Search ([optimization_techniques.ipynb](/optimization_techniques.ipynb))
+### 2. Comparing Bayesian Optimization to Grid Search and Random Search
+
+Implemented in ([optimization_techniques.ipynb](/optimization_techniques.ipynb)).
 
 Cell Title | Cell Description
 :---: | ---
