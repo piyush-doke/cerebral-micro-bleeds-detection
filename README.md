@@ -15,11 +15,12 @@ CMB Samples | Non-CMB Samples
 ## Repository Tree
 ```
 ./cerebral-micro-bleeds-detection
-├── sample_images                                 # Contains sample images
+├── sample_images                                       # Contains sample images
 │   └── ...
 ├── README.md
-├── cmb_detection.ipynb                           # Notebook to run
-└── dataset_41_41_1_13031.mat                     # Dataset
+├── cnn_structures.ipynb                                # Notebook for comparing different CNN structures
+├── dataset_41_41_1_13031.mat                           # Dataset
+└── optimization_techniques.ipynb                       # Notebook for comparing grid search, random search and Bayesian optimization
 ```
 
 ## Frameworks/Tools
