@@ -30,7 +30,9 @@ CMB Samples | Non-CMB Samples
 
 ## Usage
 
-Cells in [cmb_detection.ipynb](/cmb_detection.ipynb) are to be run sequentially from top to bottom. A brief description about the function of each cell is provided below.
+For all notebooks, cells are to be run sequentially from top to bottom. A brief description about the function of each cell is provided below.
+
+### - Comparing Bayesian Optimization to Grid Search and Random Search ([optimization_techniques.ipynb](/optimization_techniques.ipynb))
 
 Cell Title | Cell Description
 :---: | ---
@@ -42,4 +44,4 @@ Preview Samples | Displays samples from the train set.
 Grid Search | Finds the optimum set of hyper-parameters for the model using grid search.
 Random Search | Finds the optimum set of hyper-parameters for the model using random search.
 Bayesian Optimization | Finds the optimum set of hyper-parameters for the model using Bayesian optimization.
-Comparing Results | Retrains the model using hyper-parameter sets obtained from grid search, random search, and Bayesian optimization. Compares the accuracy, sensitivity, specificity, and precision obtained from these methods.
+Comparing Results | Retrains the model using hyper-parameter sets obtained from grid search, random search, and Bayesian optimization. Compares the number of iterations required, accuracy, sensitivity, specificity, and precision of these methods.
