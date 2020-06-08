@@ -20,7 +20,7 @@ CMB Samples | Non-CMB Samples
 ├── README.md
 ├── cnn_structures.ipynb                                # Notebook for comparing CNN structures
 ├── dataset_41_41_1_13031.mat                           # Dataset
-└── optimization_techniques.ipynb                       # Notebook for comparing tuning techniques
+└── tuning_techniques.ipynb                             # Notebook for comparing tuning techniques
 ```
 
 ## Frameworks/Tools
