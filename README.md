@@ -44,7 +44,7 @@ Cell Title | Cell Description
 Import Modules | Imports all the required modules.
 Settings | Sets the following parameters: seeds, split fraction, iterations of Bayesian optimization, and epochs for training the CNNs.
 Functions | Defines the following entities: CNN structures, image augmentations, Bayesian optimization algorithm, and evaluation metrics.
-Create Train/Test Sets | Splits the dataset into train and test sets. The train set undergoes image augmentation and test set remains un-augmented. Hold-out validation is used here.
+Create Train/Test Sets | Splits the dataset into train and test sets. The train set undergoes image augmentation and test set remains unaugmented. Hold-out validation is used here.
 Preview Samples | Displays samples from the train set.
 Compare Structures | Trains 6 different CNN structures, each tuned using Bayesian optimization. Compares their accuracy, sensitivity, specificity, and precision.
 
@@ -57,7 +57,7 @@ Cell Title | Cell Description
 Import Modules | Imports all the required modules.
 Settings | Sets the following parameters: seeds, split fraction, iterations of grid search, iterations of random search, iterations of Bayesian optimization, and epochs for training the CNN.
 Functions | Defines the following entities: CNN structure, image augmentations, objective function for Bayesian optimization, and evaluation metrics.
-Create Train/Test Sets | Splits the dataset into train and test sets. The train set undergoes image augmentation and test set remains un-augmented. Hold-out validation is used here.
+Create Train/Test Sets | Splits the dataset into train and test sets. The train set undergoes image augmentation and test set remains unaugmented. Hold-out validation is used here.
 Preview Samples | Displays samples from the train set.
 Grid Search | Finds the optimum set of hyper-parameters for the CNN using grid search.
 Random Search | Finds the optimum set of hyper-parameters for the CNN using random search.
