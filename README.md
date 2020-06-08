@@ -46,7 +46,7 @@ Settings | Sets the following parameters: seeds, split fraction, iterations of B
 Functions | Defines the following entities: CNN structures, image augmentations, Bayesian optimization algorithm, and evaluation metrics.
 Create Train/Test Sets | Splits the dataset into train and test sets. The train set undergoes image augmentation and test set remains un-augmented. Hold-out validation is used here.
 Preview Samples | Displays samples from the train set.
-Compare Structures | Trains 6 different CNN structures and tunes them using Bayesian optimization. Compares the accuracy, sensitivity, specificity, and precision of these 6 structures.
+Compare Structures | Trains 6 different CNN structures, each tuned using Bayesian optimization. Compares the accuracy, sensitivity, specificity, and precision of these 6 structures.
 
 ### 2. Comparing Bayesian Optimization to Grid Search and Random Search
 
