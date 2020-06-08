@@ -18,9 +18,9 @@ CMB Samples | Non-CMB Samples
 ├── sample_images                                       # Contains sample images
 │   └── ...
 ├── README.md
-├── cnn_structures.ipynb                                # Notebook for comparing different CNN structures
+├── cnn_structures.ipynb                                # Notebook for comparing CNN structures
 ├── dataset_41_41_1_13031.mat                           # Dataset
-└── optimization_techniques.ipynb                       # Notebook for comparing grid search, random search and Bayesian optimization
+└── optimization_techniques.ipynb                       # Notebook for comparing tuning techniques
 ```
 
 ## Frameworks/Tools
@@ -35,7 +35,7 @@ A brief description of all notebooks is provided below.
 NOTE: For all notebooks, cells are to be run sequentially in a top-to-bottom order.
 
 
-### 1. Comparing Different CNN Structures
+### 1. Comparing CNN Structures
 
 Implemented in [cnn_structures.ipynb](/cnn_structures.ipynb).
 
@@ -48,9 +48,9 @@ Create Train/Test Sets | Splits the dataset into train and test sets. The train 
 Preview Samples | Displays samples from the train set.
 Compare Structures | Trains 6 different CNN structures, each tuned using Bayesian optimization. Compares their accuracy, sensitivity, specificity, and precision.
 
-### 2. Comparing Bayesian Optimization to Grid Search and Random Search
+### 2. Comparing Tuning Techniques
 
-Implemented in [optimization_techniques.ipynb](/optimization_techniques.ipynb).
+Implemented in [tuning_techniques.ipynb](/tuning_techniques.ipynb).
 
 Cell Title | Cell Description
 :---: | ---
