@@ -43,7 +43,7 @@ Cell Title | Cell Description
 :---: | ---
 Import Modules | Imports all the required modules.
 Settings | Sets the following parameters: seeds, split fraction, iterations of Bayesian optimization, and epochs for training the CNNs.
-Functions | Defines entities like the CNN structures, image augmentations, Bayesian optimization algorithm, and evaluation metrics.
+Functions | Defines the following entities: CNN structures, image augmentations, Bayesian optimization algorithm, and evaluation metrics.
 Create Train/Test Sets | Splits the dataset into train and test sets. The train set undergoes image augmentation and test set remains un-augmented. Hold-out validation is used here.
 Preview Samples | Displays samples from the train set.
 Comparing Results | Trains 6 different CNN structures using hyper-parameters suggested by Bayesian optimization. Compares the accuracy, sensitivity, specificity, and precision of these 6 structures.
@@ -56,10 +56,10 @@ Cell Title | Cell Description
 :---: | ---
 Import Modules | Imports all the required modules.
 Settings | Sets the following parameters: seeds, split fraction, iterations of grid search, iterations of random search, iterations of Bayesian optimization, and epochs for training the CNN.
-Functions | Defines entities like the CNN structure, image augmentations, objective function for Bayesian optimization, and evaluation metrics.
+Functions | Defines the following entities: CNN structure, image augmentations, objective function for Bayesian optimization, and evaluation metrics.
 Create Train/Test Sets | Splits the dataset into train and test sets. The train set undergoes image augmentation and test set remains un-augmented. Hold-out validation is used here.
 Preview Samples | Displays samples from the train set.
 Grid Search | Finds the optimum set of hyper-parameters for the CNN using grid search.
 Random Search | Finds the optimum set of hyper-parameters for the CNN using random search.
 Bayesian Optimization | Finds the optimum set of hyper-parameters for the CNN using Bayesian optimization.
-Comparing Results | Compares the number of iterations required, accuracy, sensitivity, specificity, and precision of the CNN, when trained using hyper-parameters suggested by grid search, random search, and Bayesian optimization.
+Comparing Results | Compares the number of search iterations, accuracy, sensitivity, specificity, and precision of the CNN, when trained using hyper-parameters suggested by grid search, random search, and Bayesian optimization.
