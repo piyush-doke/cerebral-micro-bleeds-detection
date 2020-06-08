@@ -32,9 +32,22 @@ CMB Samples | Non-CMB Samples
 
 For all notebooks, cells are to be run sequentially from top to bottom. A brief description about the function of each cell is provided below.
 
+### 1. Comparing Different CNN Structures
+
+Implemented in [optimization_techniques.ipynb](/optimization_techniques.ipynb).
+
+Cell Title | Cell Description
+:---: | ---
+Import Modules | Imports all the required modules.
+Settings | Sets the following parameters: seeds, split fraction, iterations of Bayesian optimization, and epochs for training the CNN.
+Functions | Defines entities like the CNN structures, image augmentations, Bayesian optimization algorithm, and evaluation metrics.
+Create Train/Test Sets | Splits the dataset into train and test sets. The train set undergoes image augmentation and test set remains un-augmented. Hold-out validation is used here.
+Preview Samples | Displays samples from the train set.
+Comparing Results | Trains 6 different CNN sructures using hyper-parameter sets obtained from Bayesian optimization. Compares accuracy, sensitivity, specificity, and precision of these structures over the train and test sets.
+
 ### 2. Comparing Bayesian Optimization to Grid Search and Random Search
 
-Implemented in ([optimization_techniques.ipynb](/optimization_techniques.ipynb)).
+Implemented in [optimization_techniques.ipynb](/optimization_techniques.ipynb).
 
 Cell Title | Cell Description
 :---: | ---
@@ -46,4 +59,4 @@ Preview Samples | Displays samples from the train set.
 Grid Search | Finds the optimum set of hyper-parameters for the model using grid search.
 Random Search | Finds the optimum set of hyper-parameters for the model using random search.
 Bayesian Optimization | Finds the optimum set of hyper-parameters for the model using Bayesian optimization.
-Comparing Results | Retrains the model using hyper-parameter sets obtained from grid search, random search, and Bayesian optimization. Compares the number of iterations required, accuracy, sensitivity, specificity, and precision of these methods.
+Comparing Results | Retrains the model using hyper-parameter sets obtained from grid search, random search, and Bayesian optimization. Compares the number of iterations required, accuracy, sensitivity, specificity, and precision of these methods over the test set.
