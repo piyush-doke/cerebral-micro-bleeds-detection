@@ -34,7 +34,7 @@ For all notebooks, cells are to be run sequentially from top to bottom. A brief 
 
 ### 1. Comparing Different CNN Structures
 
-Implemented in [optimization_techniques.ipynb](/optimization_techniques.ipynb).
+Implemented in [cnn_structures.ipynb](/cnn_structures.ipynb).
 
 Cell Title | Cell Description
 :---: | ---
