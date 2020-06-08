@@ -59,4 +59,4 @@ Preview Samples | Displays samples from the train set.
 Grid Search | Finds the optimum set of hyper-parameters for the model using grid search.
 Random Search | Finds the optimum set of hyper-parameters for the model using random search.
 Bayesian Optimization | Finds the optimum set of hyper-parameters for the model using Bayesian optimization.
-Comparing Results | Retrains the model using hyper-parameter sets obtained from grid search, random search, and Bayesian optimization. Compares number of iterations required, accuracy, sensitivity, specificity, and precision of these methods over the test set.
+Comparing Results | Trains 3 identical models using hyper-parameter sets obtained from grid search, random search, and Bayesian optimization. Compares number of iterations required, accuracy, sensitivity, specificity, and precision of these methods over the test set.
