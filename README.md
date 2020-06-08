@@ -30,7 +30,10 @@ CMB Samples | Non-CMB Samples
 
 ## Usage
 
-For all notebooks, cells are to be run sequentially from top to bottom. A brief description of the notebooks is provided below.
+A brief description of all notebooks is provided below.
+
+NOTE: For all notebooks, cells are to be run sequentially in a top-to-bottom order.
+
 
 ### 1. Comparing Different CNN Structures
 
